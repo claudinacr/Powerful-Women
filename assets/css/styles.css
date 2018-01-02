@@ -63,8 +63,8 @@ img[src="assets/images/startup.png"] {
     margin-top: 2em;
 }
 
-.inputUser,
-.inputPassword {
+#inputUser,
+#inputPassword {
     width: 26em;
     height: 2.8em;
 }
