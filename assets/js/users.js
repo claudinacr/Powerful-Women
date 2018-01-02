@@ -1,6 +1,7 @@
 var users = [{
     "first_name": "Claudina",
     "last_name": "Cortez",
+    "user": "claudinacr",
     "password": "12345",
     "birth_date": "1990-03-15",
     "age": "20",
@@ -11,7 +12,7 @@ var users = [{
   {
     "first_name": "Carolina",
     "last_name": "Perez",
-    "nick": "carolinaperez",
+    "user": "calolinaperez",
     "password": "12345",
     "birth_date": "1990-03-15",
     "age": "20",
