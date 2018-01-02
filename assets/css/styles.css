@@ -48,3 +48,35 @@ img[src="assets/images/startup.png"] {
 .button a {
     color: white;
 }
+
+.box-sesion {
+    width: 8em;
+    height: 30em;
+    background-color: #F3F3F3;
+    border: 0.3em #FFA399 solid;
+    margin-top: -4em;
+    padding-left: 3em;
+}
+
+.buttonIS {
+    margin-top: 2em;
+}
+
+.inputUser,
+.inputPassword {
+    width: 26em;
+    height: 2.8em;
+}
+
+.boxSesion {
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.buttonIS button {
+    width: 26em;
+    height: 2.8em;
+    background-color: #F97E6D;
+    border: none;
+    color: white;
+}
