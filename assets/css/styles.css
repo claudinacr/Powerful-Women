@@ -1,0 +1,50 @@
+img[src="assets/images/startup.png"] {
+    width: 50%;
+}
+
+.col-startup {}
+
+.rowImageButtons {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.5em;
+}
+
+.button {
+    width: 10em;
+    margin-left: 1em;
+    background-color: #FF8170;
+    border: none;
+    padding: 0.5em;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.slogan {
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.spaceSlogan {
+    padding-top: 2.5em;
+    padding-left: 1.5em;
+}
+
+.textGray {
+    color: #B1B7BE;
+}
+
+.textPink {
+    color: #EA7068;
+    font-weight: bolder;
+}
+
+.button a {
+    color: white;
+}
