@@ -1,3 +1,53 @@
 /* Extra Small */
+@media(max-width:325px) {
+  #powerful-women-brand-mobile{
+      text-align: center;
+      display: block;
+  }
 
-@media(max-width:767px) {}
+  .slogan, .text-ahora {
+      display: none;
+  }
+
+  .startup-rocket[src="assets/images/startup.png"] {
+      width: 90%;
+  }
+
+  .lab-icon{
+      width: 15%;
+      margin: 0 2%;
+  }
+}
+
+/* Media hasta tamaño Mobile L */
+@media(max-width:425px) {
+  header, footer {
+      max-width: 100%;
+      background-color: #2E2E2E;
+      padding: 3%;
+  }
+
+  #powerful-women-brand{
+      display: none;
+  }
+
+  #powerful-women-brand-mobile{
+      font-size: 5em;
+      text-align: center;
+      display: block;
+  }
+
+  .slogan, .text-ahora {
+      display: none;
+  }
+
+  .startup-rocket[src="assets/images/startup.png"] {
+      width: 90%;
+  }
+
+  .lab-icon{
+      width: 15%;
+      margin: 0 2%;
+  }
+
+}
