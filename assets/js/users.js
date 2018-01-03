@@ -8,6 +8,7 @@ var users = [{
     "gender": "F",
     "adress": "Venecia 1605",
     "ocupation": "database developer ",
+    "photo": "assets/images/girl13.png",
   },
   {
     "first_name": "Carolina",
@@ -19,5 +20,6 @@ var users = [{
     "gender": "F",
     "adress": "Venecia 1605",
     "ocupation": "database developer ",
+    "photo": "assets/images/girl6.png",
   }
 ];

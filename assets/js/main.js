@@ -1,3 +1,4 @@
+//AUTENTICACION DE USUARIO
 var buttonSend = document.getElementById('buttonSend');
 
 function getUser() {
@@ -33,12 +34,6 @@ buttonSend.onclick = function () {
   authentication(getUser(), getPassword(), user, pasword);
 };
 
-
-
-
-
-
-
 function authentication(arrayUser, arrayPassword, user, password) {
   var validarUser, validarPassword;
   for (let i = 0; i < arrayUser.length; i++) {
@@ -54,8 +49,9 @@ function authentication(arrayUser, arrayPassword, user, password) {
     }
   }
   if (validarUser === true && validarPassword === true) {
-    console.log('usuario registrado');
     window.open('redSocial.html', '_self');
+    var colUser = document.querySelector('.col-user');
+    colUser.appendChild(document.createTextNode(user));
   } else {
     alert('Usuario y contraseña no validos');
   }
